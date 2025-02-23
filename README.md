@@ -7,6 +7,9 @@ This repository analyzes cultural and social patterns in trending YouTube videos
 
 ( Live streams and “shorts” were excluded to maintain consistency and limit API anomalies. During preprocessing, missing values and outliers were addressed, global duplicate videos were removed, and only one trending video per channel was retained. Countries with fewer than 500 observations were also filtered out.)
 
+Additional comments and links to dataset are available in "./dat".
+NOTE: Since we run our code on cloug platforms there may be need to change paths to datasets in notebooks, but we cared about it as well. The ploblems may also occur due to UNIX / Windows OS differences in path specifications.
+
 # Assumptions
 1. The analyses assume that daily trending videos in each country reflect culturally relevant viewing patterns, thus serving as a window into audience preferences.
 2. Independence of observations is largely ensured by excluding globally trending content and limiting multiple appearances from the same channel.
